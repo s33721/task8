@@ -15,4 +15,12 @@ public abstract class Animal {
         return name;
     }
 
+    public abstract void makeSound();
+
+    public abstract void move();
+
+    public void displayInformation() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
 }

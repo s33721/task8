@@ -1,8 +1,10 @@
 public class Mammal extends Animal {
 
+    private double weight;
 
-    public Mammal(String name, int age) {
+    public Mammal(String name, int age, double weight) {
         super(name, age);
+        this.weight = weight;
 
     }
 
@@ -16,4 +18,13 @@ public class Mammal extends Animal {
         System.out.println("Mammal is moving");
     }
 
+    public void jump() {
+        System.out.println("Mammal is jumping");
+    }
+
+    @Override
+    public void displayInformation() {
+        super.displayInformation();
+        System.out.println("Mammal's weight is " + weight);
+    }
 }

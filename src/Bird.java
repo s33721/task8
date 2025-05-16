@@ -26,4 +26,10 @@ public class Bird extends Animal {
         System.out.println("The feather count is " + featherCount);
     }
 
+    @Override
+    public void naturalHabitat() {
+        System.out.println("Bird's natural habitat is air");
+    }
+
+
 }

@@ -23,4 +23,5 @@ public abstract class Animal {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
     }
+    public abstract void naturalHabitat();
 }

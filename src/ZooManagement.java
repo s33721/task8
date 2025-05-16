@@ -14,6 +14,14 @@ public class ZooManagement {
         eagle.displayInformation();
         System.out.println("===============");
         crocodile.displayInformation();
+        System.out.println("===============");
+        lion.naturalHabitat();
+        System.out.println("===============");
+        eagle.naturalHabitat();
+        System.out.println("===============");
+        crocodile.naturalHabitat();
+        System.out.println("===============");
+
 
     }
 }

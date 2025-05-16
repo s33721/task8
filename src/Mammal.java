@@ -27,4 +27,9 @@ public class Mammal extends Animal {
         super.displayInformation();
         System.out.println("Mammal's weight is " + weight);
     }
+
+    @Override
+    public void naturalHabitat() {
+        System.out.println("Mammal's natural habitat is a desert");
+    }
 }

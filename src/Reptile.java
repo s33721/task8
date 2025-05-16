@@ -25,4 +25,9 @@ public class Reptile extends Animal {
         super.displayInformation();
         System.out.println("Reptile color: " + color);
     }
+
+    @Override
+    public void naturalHabitat() {
+        System.out.println("Reptile's natural habitat is somewhere with water, land and sunlight");
+    }
 }

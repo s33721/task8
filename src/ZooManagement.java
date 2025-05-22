@@ -4,10 +4,13 @@ public class ZooManagement {
         Animal eagle = new Bird("Eagle", 10, 1000);
         Animal crocodile = new Reptile("Crocodile", 4, "Green");
         lion.move();
+        ((Mammal) lion).jump();
         System.out.println("===============");
         eagle.makeSound();
+        ((Bird) eagle).fly();
         System.out.println("===============");
         crocodile.move();
+        ((Reptile) crocodile).spin();
         System.out.println("===============");
         lion.displayInformation();
         System.out.println("===============");
